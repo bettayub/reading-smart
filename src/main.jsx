@@ -13,6 +13,8 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Books from "./Components/Books/Books";
 import BookDetail from "./Components/Books/BookDetail";
+// import SignUp from "./Components/SignUp/SignUp.jsx";
+// import Login from "./Components/Login/Login.jsx";
 
 
 
@@ -20,6 +22,8 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
+      {/* <Route path="login" element={<Login />} />
+      <Route path="signup" element={<SignUp />} /> */}
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route exact path="books" element={<Books />} />

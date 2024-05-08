@@ -12,11 +12,12 @@ function Contact() {
             </p>
           </div>
           <p className="text-center text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">
-            Love to hear from you
+            Love to hear from you 
           </p>
           <p className="mx-auto max-w-4xl text-center text-base text-gray-600 md:text-xl">
             Drop Us a Line. Get in Touch.
             Reach Out.
+
           </p>
         </div>
         <div className="mx-auto max-w-7xl py-12 md:py-24">

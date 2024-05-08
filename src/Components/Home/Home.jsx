@@ -5,15 +5,13 @@ function Home() {
     <div className="lg:flex items-center justify-between pt-9 bg-gradient-to-r from-orange-100 from-10% to-white to-10% ">
       <div className="lg:px-12 px-4 py-12 lg:w-1/2">
         <h1 className="text-[#393280] font-semibold text-[60px]">
-          Smart Books
+          BOOKLAB
         </h1>
         <p className="leading-7" style={{ color: "rgba(57, 50, 128, 0.80)" }}>
-          Discover a world of knowledge and adventure at Smart Book Store, where
-          every book finds its reader. We&#39;re your destination for a vast
-          collection of books, catering to all tastes and interests. From
-          timeless classics to contemporary bestsellers, we take pride in
-          offering a diverse selection that ensures there&#39;s something for
-          everyone.
+        Welcome to BookLab, your one-stop solution for exploring, organizing, and discovering books.
+        In a world inundated with information, BookLab is designed to streamline the process of  
+        finding your next great read while enhancing your overall reading experience.
+
         </p>
         <Link to="books">
         <button
