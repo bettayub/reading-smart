@@ -26,6 +26,7 @@ function BookDetail() {
       <h1 className="text-lg pt-2"><span className="font-bold text-xl">Total Pages: </span>{book?.num_pages}</h1>
       <h1 className="text-lg pt-2"><span className="font-bold text-xl">Ratings: </span>{book?.rating}/5</h1>
       <h1 className="text-lg pt-2"><span className="font-bold text-xl">Quote: </span>{book?.Quote2}</h1>
+     
       </div>
     </div>
     </>
